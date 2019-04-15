@@ -1,0 +1,235 @@
+@media (max-width: 1024px) {
+	.menu {
+		flex-wrap: wrap;
+	}
+
+	.menu-left {
+		padding-top: 20px;
+		display: none;
+		order: 1;
+		width: 100%;
+		margin: 0;
+		font-size: 20px;
+	}
+
+	.menu-left a {
+		margin: 0 0 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #e2e2e2;
+		text-decoration: none;
+	}
+
+	.menu-left a:nth-child(2n) {
+		margin: 0 0 10px;
+	}
+
+	.mob-icon {
+		display: block;
+	}
+
+	.phone {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.telephone {
+		margin-left: auto;
+		padding-right: 20px
+	}
+
+	.order-call {
+		width: 200px;
+		padding: 15px 0;
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.dev-name {
+		font-size: 54px;
+	}
+
+	.more {
+		padding: 15px 50px;
+		font-size: 16px;
+	}
+
+	.services {
+		flex-wrap: wrap;
+		margin: 100px 0 20px;
+	}
+
+	.services > div {
+		margin-bottom: 85px;
+		width: 49%;
+		justify-content: center;
+	}
+
+	.owl-nav {
+		display: none;
+	}
+
+	.contacts {
+		padding: 90px 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.phone > button {
+		display: none;
+	}
+
+	.call-icon {
+		display: inline-block;
+	}
+
+	.telephone {
+		margin-left: 0;
+		padding-right: 0;
+	}
+
+	.dev-name {
+		font-size: 30px;
+	}
+
+	.dev-spec {
+		font-size: 20px;
+	}
+
+	.right-information {
+		width: 60%;
+	}
+
+	.photo-developer {
+		width: 100%;
+	}
+
+	.examples {
+		margin: 50px auto;
+	}
+
+	.price-main {
+		font-size: 28px;
+		min-width: 280px;
+	}
+
+	.price-subtext {
+		font-size: 15px;
+		min-width: 280px;
+	}
+
+	.contacts {
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 50px 20px;
+	}
+
+	.column-one {
+		width: 100%;
+	}
+
+	.column-two {
+		width: 100%;
+		margin: 50px 0 30px;
+		color: #8993ad;
+	}
+
+	.column-three {
+		width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.telephone {
+		font-size: 18px;
+	}
+
+	.developer-inform {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 70px;
+	}
+
+	.flex-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.left-information {
+		display: none;
+	}
+
+	.left-information-mob {
+		display: block;
+	}
+
+	.dev-spec {
+		font-size: 16px;
+		margin: 20px 0 30px;
+	}
+
+	.services > div {
+		margin-bottom: 85px;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.services-block h2 {
+		font-size: 30px;
+		margin: 50px 0;
+	}
+
+	.services {
+		margin: 0;
+	}
+
+	.more {
+		width: 100%;
+	}
+
+	.works h2 {
+		font-size: 30px;
+		margin: 55px 0 110px;
+	}
+
+	.examples {
+		margin: 0 0 100px;
+	}
+
+	.nav-btns {
+		bottom: 10%;
+	}
+
+	.contact-phone {
+		font-size: 20px;
+	}
+
+	.mail {
+		font-size: 20px;
+	}
+
+	.order-call {
+		width: 100%;
+		background-color: #ff4e2e;
+		color: #ffffff;
+		font-size: 16px;
+	}
+
+	.column-one {
+		text-align: left;
+	}
+
+	.column-two {
+		text-align: left;
+	}
+
+	.column-three {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		width: 100%;
+	}
+}
+
+@media (max-width: 320px) {
+}
