@@ -1,0 +1,324 @@
+.circle-zero  {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fbfbfb;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  border-radius: 40px;
+  transition: transform 4s ease 3.5s, background-color 1s ease 3.5s, opacity 3s ease 3.5s;
+}
+
+.circle-zero.active {
+  transform: scale(30);
+  border-radius: 40px;
+  background-color: #fa0990;
+  opacity: 0
+}
+
+.circle-one {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #fa0990;
+  top: -50%;
+  left: -50%;
+  border-radius: 15px;
+  transition: top 1s ease 0.7s, left 1s ease 0.7s, width 0.1s ease 3.7s;
+}
+
+.circle-one.active {
+  width: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.circle-two {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fa0990;
+  bottom: -50%;
+  left: -50%;
+  transition: top 1s ease 1.5s, left 1s ease 1.5s, width 0.1s ease 3.7s;
+  border-radius: 15px;
+}
+
+.circle-two.active {
+  width: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.circle-three {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fa0990;
+  top: -50%;
+  left: -10%;
+  transition: top 1s ease 1.9s, left 1s ease 1.9s, width 0.1s ease 3.7s;
+  border-radius: 15px;
+}
+
+.circle-three.active {
+  width: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.circle-four {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fa0990;
+  top: -50%;
+  right: -50%;
+  transition: top 1s ease 2.1s, left 1s ease 2.1s, width 0.1s ease 3.7s;
+  border-radius: 15px;
+}
+
+.circle-four.active {
+  width: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.circle-five {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fa0990;
+  top: 150%;
+  left: 100%;
+  transition: top 1s ease 2.3s, left 1s ease 2.3s, width 0.1s ease 3.7s;
+  border-radius: 15px;
+}
+
+.circle-five.active {
+  width: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.one {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(180deg, #fa0990 40%, #f35a2f 100%);
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  transition: font-size 1s ease 3.6s, transform 3s ease 3.6s;
+
+}
+
+.one.active {
+  font-size: 2vw;
+  transform: translate3d(-2400%, -700%, 0) rotate(570deg);
+
+}
+
+.two {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(180deg, #fa0990 40%, #f35a2f 100%);
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  transition: font-size 1s ease 3.6s, transform 3s ease 3.6s;
+}
+
+.two.active {
+  font-size: 2.3vw;
+  transform: translate3d(-2700%, -30%, 0) rotate(380deg);
+}
+
+.three {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(180deg, #fa0990 40%, #f35a2f 100%);
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  transition: font-size 1s ease 3.6s, transform 3s ease 3.6s;
+}
+
+.three.active {
+  font-size: 1.7vw;
+  transform: translate3d(-1250%, 550%, 0) rotate(340deg);
+}
+
+.four {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(180deg, #fa0990 40%, #f35a2f 100%);
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  transition: font-size 1s ease 3.6s, transform 3s ease 3.6s;
+}
+
+.four.active {
+   font-size: 1.7vw;
+  transform: translate3d(0, 300%, 0) rotate(380deg);
+}
+
+.five {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(180deg, #fa0990 40%, #f35a2f 100%);
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  transition: font-size 1s ease 3.6s, transform 3s ease 3.6s;
+}
+
+.five.active {
+  font-size: 1.3vw;
+  transform: translate3d(-300%, -900%, 0) rotate(340deg);
+}
+
+@media (max-width: 1024px) {
+  .one.active {
+    font-size: 4vw;
+    transform: translate3d(-1100%, -500%, 0) rotate(570deg);
+  }
+
+  .two.active {
+    font-size: 5vw;
+    transform: translate3d(-1500%, 350%, 0) rotate(340deg);
+  }
+
+  .three.active {
+    font-size: 3vw;
+    transform: translate3d(-550%, 400%, 0) rotate(330deg);
+  }
+
+  .four.active {
+    font-size: 3.5vw;
+    transform: translate3d(-50%, -750%, 0) rotate(380deg);
+  }
+
+  .five.active {
+    font-size: 2.3vw;
+    transform: translate3d(650%, -1200%, 0) rotate(340deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .one.active {
+    font-size: 5vw;
+    transform: translate3d(-900%, -450%, 0) rotate(570deg);
+  }
+
+  .two.active {
+    font-size: 5vw;
+    transform: translate3d(-1500%, 400%, 0) rotate(340deg);
+  }
+
+  .three.active {
+    font-size: 3.5vw;
+    transform: translate3d(-550%, 450%, 0) rotate(330deg);
+  }
+
+  .four.active {
+    font-size: 4vw;
+    transform: translate3d(-120%, -750%, 0) rotate(380deg);
+  }
+
+  .five.active {
+    font-size: 3vw;
+    transform: translate3d(500%, -1000%, 0) rotate(340deg);
+  }
+}
+
+
+@media (max-width: 576px) {
+  .one, .two, .three, .four, .five {
+    transition: none;
+  }
+
+  .one.active {
+    top: -6%;
+    left: 13%;
+    font-size: 7vw;
+    transform: rotate(390deg);
+  }
+
+  .two.active {
+    top: 20%;
+    left: 7%;
+    font-size: 7vw;
+    transform: rotate(370deg);
+  }
+  
+  .three.active {
+    top: -15%;
+    left: 50%;
+    font-size: 5vw;
+    transform: rotate(330deg);
+  }
+
+  .four.active {
+    top: 1%;
+    left: 82%;
+    font-size: 4vw;
+    transform: rotate(380deg);
+  }
+  
+  .five {
+    display: none;
+    transition: none;
+  }
+
+  .circle-one {
+    display: none;
+    transition: none;
+  }
+
+  .circle-two {
+    display: none;
+    transition: none;
+  }
+
+  .circle-three {
+    display: none;
+    transition: none;
+  }
+
+  .circle-four {
+    display: none;
+    transition: none;
+  }
+
+  .circle-five {
+    display: none;
+    transition: none;
+  }
+}
